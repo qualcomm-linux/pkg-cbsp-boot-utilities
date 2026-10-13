@@ -1,0 +1,5 @@
+qcom-capsule-tool (1.0.0+git20261007.3faf289-1) sid; urgency=medium
+
+  * Initial Debian packaging of qcom-capsule-tool.
+
+ -- Guanquan Tian <guanquan@qti.qualcomm.com>  Sun, 11 Oct 2026 16:03:38 +0000
