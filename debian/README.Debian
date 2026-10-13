@@ -1,0 +1,14 @@
+qcom-capsule-tool for Debian
+-----------------------------
+
+This package is built from the `uefi_capsule_generation/` subdirectory of
+the cbsp-boot-utilities monorepo (https://github.com/qualcomm/cbsp-boot-utilities).
+
+Source format is "3.0 (quilt)". The upstream source is not committed to
+this branch; it is tracked as a snapshot via debian/watch (mode=git,
+following the upstream main branch HEAD) and imported with
+`gbp import-orig --uscan`. Each changelog entry importing a new snapshot
+should note the corresponding upstream commit hash.
+
+The sibling `uefi_sec/` directory (an autotools C project) is not packaged
+here; it ships in a separate binary package if/when that becomes needed.
