@@ -49,3 +49,4 @@ jobs:
       new-package-name: ${{inputs.new-package-name}}
       new-debian-version: ${{inputs.new-debian-version}}
     secrets: inherit
+# qli-ci: registered in GitHub Actions

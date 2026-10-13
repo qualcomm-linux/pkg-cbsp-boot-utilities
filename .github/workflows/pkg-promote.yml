@@ -31,3 +31,4 @@ jobs:
       upstream-repo: ${{vars.UPSTREAM_REPO_GITHUB_NAME}}
     secrets:
       PAT: ${{secrets.DEB_PKG_BOT_CI_TOKEN}} # If the source repo is private, this secret is necessary to be provided in the repo
+# qli-ci: registered in GitHub Actions
