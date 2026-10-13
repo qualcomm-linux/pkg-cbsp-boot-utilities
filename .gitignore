@@ -1,8 +1,0 @@
-/.pybuild/
-/debian/.debhelper/
-/debian/debhelper-build-stamp
-/debian/files
-/debian/python3-qcom-capsule-tool/
-*.buildinfo
-*.changes
-*.deb
